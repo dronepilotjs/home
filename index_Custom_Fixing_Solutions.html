@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12283e">
+  <meta name="description" content="Custom Fixing Solutions – Technická výpočtová řešení: COMPENSATION a PACIFYRE.">
+  <title>Custom Fixing Solutions – Technická výpočtová řešení</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1928;--card:#183049;--line:#33546f;--text:#edf5fc;--muted:#b8cad8;--accent:#55cee0}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 75% 0%,#20445f 0,transparent 55%),linear-gradient(135deg,#0b1928,#10283f);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;display:flex;flex-direction:column}
+    main{width:min(1030px,calc(100% - 36px));margin:auto;padding:76px 0 55px}
+    .tag{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #547189;border-radius:100px;color:#c6e5ef;font-size:13px;letter-spacing:.04em}
+    .tag:before{content:"";width:8px;height:8px;border-radius:50%;background:#5fd8b0}
+    h1{font-size:clamp(34px,5vw,57px);line-height:1.11;letter-spacing:-.035em;margin:23px 0 15px}
+    .intro{color:var(--muted);font-size:18px;max-width:650px;line-height:1.65;margin-bottom:42px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .card{min-height:300px;border:1px solid var(--line);border-radius:22px;padding:31px;background:linear-gradient(145deg,rgba(31,65,91,.94),rgba(18,42,64,.96));box-shadow:0 14px 42px #0002;display:flex;flex-direction:column;align-items:flex-start;transition:transform .2s,border-color .2s,box-shadow .2s}
+    .card:hover,.card:focus-within{transform:translateY(-4px);border-color:#70b4cf;box-shadow:0 18px 45px #0005}
+    .icon{width:59px;height:59px;display:grid;place-items:center;background:#294f69;border:1px solid #56859e;border-radius:17px;color:#7be0ed}
+    .icon svg{width:33px;height:33px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    h2{font-size:25px;margin:22px 0 10px;line-height:1.25}
+    .card p{color:var(--muted);font-size:15px;line-height:1.6;margin:0 0 26px}
+    .button{margin-top:auto;display:inline-flex;gap:13px;align-items:center;justify-content:center;padding:13px 20px;border-radius:11px;background:var(--accent);color:#092636;font-weight:750;text-decoration:none;min-height:49px;transition:background .2s}
+    .button:hover{background:#83e2ef}.button:focus-visible{outline:3px solid #fff;outline-offset:4px}
+    footer{padding:0 18px 24px;text-align:center;color:#96adbf;font-size:13px}
+    @media(max-width:680px){main{padding-top:45px}.grid{grid-template-columns:1fr}.card{min-height:270px;padding:25px}.intro{font-size:16px}}
+  </style>
+</head>
+<body>
+  <main>
+    <a class="tag" href="https://github.com/dronepilotjs" target="_blank" rel="noopener noreferrer" style="text-decoration:none">GitHub · dronepilotjs ↗</a>
+    <h1>Custom Fixing Solutions<br><span style="font-size:.58em;letter-spacing:-.015em;color:#b8cad8">Technická výpočtová řešení</span></h1>
+    <p class="intro">Vyberte aplikaci, se kterou chcete pracovat. Oba nástroje se otevírají přímo v prohlížeči.</p>
+    <section class="grid" aria-label="Výběr aplikace">
+      <article class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M3 25h11V8h15"/><path d="M9 25v-6h5"/><path d="M24 4v8M20 8h8"/><path d="m4 11 4 4-4 4"/></svg></div>
+        <h2>Tepelná roztažnost potrubí</h2>
+        <p>Výpočet dilatace potrubí, kompenzace L / U / Z a sil působících do pevných bodů.</p>
+        <a class="button" id="thermal-link" target="_blank" rel="noopener noreferrer" href="https://dronepilotjs.github.io/compensation/">Otevřít výpočet <span aria-hidden="true">→</span></a>
+      <a href="https://github.com/dronepilotjs/compensation" target="_blank" rel="noopener noreferrer" style="color:#b8cad8;font-size:13px;margin-top:14px">Zobrazit repozitář na GitHubu ↗</a>
+      </article>
+      <article class="card">
+        <div class="icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 4h12l5 5v19H8z"/><path d="M20 4v6h5"/><path d="M12 16h9M12 21h9"/><path d="M4 13h8v14H4z"/></svg></div>
+        <h2>Spotřeba materiálu Pacifyre</h2>
+        <p>Pomocný nástroj pro výpočet množství materiálu pro protipožární těsnění prostupů.</p>
+        <a class="button" id="pacifyre-link" target="_blank" rel="noopener noreferrer" href="https://dronepilotjs.github.io/pacifyre/">Otevřít kalkulátor <span aria-hidden="true">→</span></a>
+        <a href="https://github.com/dronepilotjs/pacifyre" target="_blank" rel="noopener noreferrer" style="color:#b8cad8;font-size:13px;margin-top:14px">Zobrazit repozitář na GitHubu ↗</a>
+      </article>
+    </section>
+  </main>
+  <footer>Projekty uživatele <a href="https://github.com/dronepilotjs" style="color:#7be0ed">dronepilotjs na GitHubu</a></footer>
+</body>
+</html>
