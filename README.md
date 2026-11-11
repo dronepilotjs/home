@@ -1,16 +1,17 @@
-## Hi there 👋
+# Custom Fixing Solutions – Technická výpočtová řešení
 
-<!--
-**dronepilotjs/dronepilotjs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Vítejte na GitHub profilu **dronepilotjs**. Zde najdete dva webové výpočtové nástroje:
 
-Here are some ideas to get you started:
+### 🌡️ COMPENSATION – Tepelná roztažnost potrubí
+Výpočty tepelné dilatace potrubí, kompenzací L / U / Z a zatížení pevných bodů.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[**▶ Otevřít aplikaci**](https://dronepilotjs.github.io/compensation/) · [Zdrojový repozitář](https://github.com/dronepilotjs/compensation)
+
+### 🔥 PACIFYRE – Spotřeba materiálu
+Kalkulátor spotřeby materiálu pro protipožární těsnění prostupů.
+
+[**▶ Otevřít aplikaci**](https://dronepilotjs.github.io/pacifyre/) · [Zdrojový repozitář](https://github.com/dronepilotjs/pacifyre)
+
+---
+
+
